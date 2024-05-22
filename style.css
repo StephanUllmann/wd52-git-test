@@ -23,3 +23,26 @@ nav a:hover {
   background-color: #ddd;
   color: black;
 }
+
+/* Cards style / Erika */
+section {
+  margin: 5rem 2rem;
+}
+
+.cards-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 2rem;
+  margin-inline: 1rem;
+  /* max-width: 1024px; */
+}
+
+.card {
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  flex-basis: 200px;
+  padding-bottom: 1rem;
+}
